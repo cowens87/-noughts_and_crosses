@@ -6,9 +6,9 @@ require './lib/cell'
 RSpec.describe Board do
   before(:each) do
     @board = Board.new
-    @cell = Cell.new('1')
-    @x = Piece.new('X')
-    @o = Piece.new('O')
+    @cell  = Cell.new('1')
+    @x     = Piece.new('X')
+    @o     = Piece.new('O')
   end
 
   it 'exists' do
