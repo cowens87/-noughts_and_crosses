@@ -38,7 +38,7 @@ class Game
     end
     win_game
     puts '=============REMATCH?============='
-    @user_board = Board.new
+    @game_board = Board.new
     play_the_game
   end
 
