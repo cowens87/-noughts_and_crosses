@@ -3,8 +3,8 @@ class Cell
   attr_reader :space, :piece
 
   def initialize(space)
-    @space      = space
-    @piece      = piece
+    @space = space
+    @piece = piece
   end
 
   def empty?

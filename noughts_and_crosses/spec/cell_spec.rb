@@ -4,12 +4,12 @@ require './lib/piece'
 
 RSpec.describe Cell do
   before(:each) do
-    @cell = Cell.new('1')
+    @cell  = Cell.new('1')
     @cell1 = Cell.new('2')
     @cell2 = Cell.new('3')
     @cell3 = Cell.new('4')
-    @x = Piece.new('X')
-    @o = Piece.new('O')
+    @x     = Piece.new('X')
+    @o     = Piece.new('O')
   end
 
   it 'exists' do
